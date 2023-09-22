@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Formulario complejo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../CSS/formularioCompStyle.css">
+    </head>
+    <body>
+        <h1>FORMULARIO COMPLEJO</h1>
+        <form action="../FormularioComp" method="post">
+            <h4>Datos personales</h4>
+            <div class="a">
+                <br>
+                <label for = "us">Usuario:</label>
+                <input type="text" id="us" name="usuario"><br>
+                <br>
+                <label for="psw">Password:</label>
+                <input type="password" id="psw" name="password"><br>
+                <br>
+                <label for= "ed">Edad:</label>
+                <input type="number" id="ed" name="edad" max="100" min="18"><br>
+                <br>
+            </div>
+            <h4>Otros datos</h4>
+            <div class="b">
+                <br>
+                <label>Estado civil:</label>
+                <input type="radio" name="ec" value="Soltero/a"> Soltero/a
+                <input type="radio" name="ec" value="Casado/a"> Casado/a
+                <input type="radio" name="ec" value="Viudo/a"> Viudo/a
+                <input type="radio" name="ec" value="Divorciado/a"> Divorciado/a<br>
+                <br>
+                <label for="afi">Aficiones (uno o varios; CTRL)</label><br>
+                <select name="afi" multiple size="6">
+                    <option value="Deporte">Deporte</option>
+                    <option value="Musica">M&uacute;sica</option> 
+                    <option value="Informatica">Inform&aacute;tica</option> 
+                    <option value="Viajes">Viajes</option> 
+                    <option value="Tiendas">Tiendas</option> 
+                    <option value="Juegos">Juegos</option><!-- comment -->
+                </select><br>
+                <br>
+                <label for="com">Comentarios:</label>
+                <input type="text" name="com" placeholder="Pon tu comentario..."><br>
+                <br>
+            </div>
+            <h4>Medios tecnol&oacute;gicos</h4>
+            <div class="c">
+                <br>
+                <label>¿Dispones de internet?</label>
+                <input type="radio" name="sn" value="Si"> S&iacute;
+                <input type="radio" name="sn" value="No"> No<br>
+                <br>
+                <label for="so">Sistema operativo (elige uno)</label><br>
+                <select name="so" multiple size="4">
+                    <option value="Linux">Linux</option>
+                    <option value="Windows">Windows</option> 
+                    <option value="Macintosh">Macintosh</option> 
+                    <option value="Solaris">Solaris</option>
+                </select><br>
+                <input type="hidden" name="digito" value="23">
+                <br>
+            </div>
+            <br>
+            <div class="btns">
+                <input type="submit" name="btnEnviar" value="Enviar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="reset"  name="btnLimpiar" value="Limpiar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+        </form>
+        </body>
+</html>

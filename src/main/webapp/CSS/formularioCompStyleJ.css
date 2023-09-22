@@ -1,0 +1,31 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 22 sept. 2023, 17:03:50
+    Author     : manue
+*/
+body{
+    display: grid;
+    place-items: center;
+    background-image:url("https://static.vecteezy.com/system/resources/previews/007/254/639/non_2x/abstract-backgrond-with-soft-gradient-color-and-dynamic-shadow-background-for-wallpaper-eps-10-vector.jpg"); 
+}
+div{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 1px, rgb(51, 51, 51) 0px 0px 0px 2px;
+    border: 1px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 500px;
+    padding-left: 15px;
+    background-color: #BAB4FA;
+    
+}
+h1{
+    color:white;
+}
+.buttom8{
+    background-color: #BAB4FA;
+    border-radius: 5px;
+    color: black;
+}
