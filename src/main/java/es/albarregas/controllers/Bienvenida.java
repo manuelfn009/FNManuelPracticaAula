@@ -38,11 +38,13 @@ public class Bienvenida extends HttpServlet {
             out.println("<html>");
             out.println("<head>");
             out.println("<title>Servlet Bienvenida</title>");
+            out.println("<link rel=\"stylesheet\" href=\"" + request.getContextPath() + "/CSS/holaMundoStyleJ.css\">");
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet Bienvenida at " + request.getContextPath() + "</h1>");
+            out.println("<div>");
+            out.println("<h1>Datos introducidos en el formulario </h1>");
             out.println("<h2>El método de llamada es " + request.getMethod() + "</h2>");
-            out.println("<p><a href=\".\">Men&uacute</a></p>");
+            
             //out.println("<p>"+ request.getParameterNames()"</p>");
             Enumeration<String> campos = request.getParameterNames();
             String nombre = null;
@@ -54,6 +56,9 @@ public class Bienvenida extends HttpServlet {
                     out.println("<h4> El parametro '" + nombre + "' es igual a: " + request.getParameter(nombre) + "</h4>");
                 }
             }
+            out.println("</div>");
+            out.println("<a href=\"" + request.getContextPath() + "/index.html\">");
+            out.println("<button class='buttom8'>Volver a inicio</button></a>");
             out.println("</body>");
             out.println("</html>");
         }
@@ -77,9 +82,11 @@ public class Bienvenida extends HttpServlet {
             out.println("<html>");
             out.println("<head>");
             out.println("<title>Servlet Bienvenida</title>");
+            out.println("<link rel=\"stylesheet\" href=\"" + request.getContextPath() + "/CSS/holaMundoStyleJ.css\">");
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet Bienvenida at " + request.getContextPath() + "</h1>");
+            out.println("<div>");
+            out.println("<h1>Datos introducidos en el formulario</h1>");
             out.println("<h2>El método de llamada es " + request.getMethod() + "</h2>");
             //out.println("<p>"+ request.getParameterNames()"</p>");
             Enumeration<String> campos = request.getParameterNames();
@@ -92,8 +99,10 @@ public class Bienvenida extends HttpServlet {
                     out.println("<li> El campo '" + nombre + "' tiene un valor de: " + request.getParameter(nombre) + "</li>");
                 }
             }
-            out.println("<p><a href=\".\">Men&uacute</a></p>");
             out.println("</ul>");
+            out.println("</div>");
+            out.println("<a href=\"" + request.getContextPath() + "/index.html\">");
+            out.println("<button class='buttom8'>Volver a inicio</button></a>");
             out.println("</body>");
             out.println("</html>");
         }

@@ -78,9 +78,11 @@ public class Formulario extends HttpServlet {
             out.println("<html>");
             out.println("<head>");
             out.println("<title>Servlet Formulario</title>");
+            out.println("<link rel=\"stylesheet\" href=\"" + request.getContextPath() + "/CSS/formularioStyleJ.css\">");
             out.println("</head>");
-            out.println("<body>");
-            out.println("<h1>Servlet Formulario at " + request.getContextPath() + "</h1>");
+            out.println("<body>");            
+            out.println("<div>");
+            out.println("<h1>Datos introducidos en el formulario </h1>");
             out.println("<ul>");
             boolean correcto = true;
             if (!correcto) {
@@ -100,9 +102,11 @@ public class Formulario extends HttpServlet {
                         }
                     }
                 }
-
             }
-            out.println("<p><a href=\".\">Men&uacute</a></p>");
+            
+            out.println("</div>");
+            out.println("<a href=\"" + request.getContextPath() + "/index.html\">");
+            out.println("<button class='buttom8'>Volver a inicio</button></a>");
             out.println("</body>");
             out.println("</html>");
         }

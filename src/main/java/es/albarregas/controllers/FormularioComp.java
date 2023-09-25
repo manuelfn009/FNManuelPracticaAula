@@ -117,17 +117,16 @@ public class FormularioComp extends HttpServlet {
                         }
                     }
                 }
-                out.println("<p>Comentarios - <strong>" + formData.get("com") + "</strong></p>");
-                out.println("<p>Internet - <strong>" + formData.get("sn") + "</strong></p>");
-                out.println("<p>Sistema Operativo - <strong>" + formData.get("so") + "</strong></p>");
-                out.println("<p>Digito - <strong>" + formData.get("digito") + "</strong></p>");
-                out.println("</div>");
-                out.println("<a href=\"" + request.getContextPath() + "/index.html\">");
-                out.println("<button class='buttom8'>Volver a inicio</button></a>");
-                out.println("</body>");
-                out.println("</html>");
-
             }
+            out.println("<p>Comentarios - <strong>" + formData.get("com") + "</strong></p>");
+            out.println("<p>Internet - <strong>" + formData.get("sn") + "</strong></p>");
+            out.println("<p>Sistema Operativo - <strong>" + formData.get("so") + "</strong></p>");
+            out.println("<p>Digito - <strong>" + formData.get("digito") + "</strong></p>");
+            out.println("</div>");
+            out.println("<a href=\"" + request.getContextPath() + "/index.html\">");
+            out.println("<button class='buttom8'>Volver a inicio</button></a>");
+            out.println("</body>");
+            out.println("</html>");
         }
     }
 

@@ -1,0 +1,32 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 23 sept. 2023, 19:29:31
+    Author     : manue
+*/
+
+body{
+    display: grid;
+    place-items: center;
+    background-image:url("https://static.vecteezy.com/system/resources/previews/006/444/177/non_2x/background-abstract-walpaper-gradient-wave-blue-and-orange-vector.jpg");
+}
+div{
+    box-shadow: #5089EB 0px 30px 60px -12px inset, #EE811C 0px 18px 36px -18px inset;
+    border-radius: 10px;
+    width: 500px;
+    margin-top: 250px;
+    margin-left: 80px;
+    color: black;
+    padding-left: 10px;
+}
+.buttom8{
+    background-color: #0F4A8C;
+    margin-top: 10px;
+    margin-left: 70px;
+    
+    border-radius: 5px;
+    color: white;
+}
+

@@ -1,0 +1,38 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 24 sept. 2023, 20:30:47
+    Author     : manue
+*/
+
+body{
+    background-image: url(https://wallpapercave.com/wp/t8mjzpV.jpg);
+    display: grid;
+    place-items: center;
+    margin-left: 100px;
+}
+div{
+    background:linear-gradient(to bottom right, #4080C7, black);
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: #000000 0px 0px 0px 2px, #000000 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px;
+    border-radius: 10px;
+    color:white;
+    width: 500px;
+    margin-top: 250px;
+    padding-left: 2px;
+    
+}
+
+h1{
+    color:white;
+}
+
+.buttom8{
+    margin-top: 10px;
+    background-color: #1A3451;
+    border-radius: 5px;
+    color: white;
+}
