@@ -1,0 +1,61 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 26 sept. 2023, 16:37:20
+    Author     : manue
+*/
+
+*{
+    color:#003D6D;
+}
+body{
+    display: grid;
+    place-items: center;
+    background-image:url("https://tksinformatica.es/wp-content/uploads/2021/05/criptomonedas.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+}
+div.errores{
+    background-color: pink;
+    color: #ff0033;
+}
+div{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 1px, rgb(51, 51, 51) 0px 0px 0px 2px;
+    border: 1px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 500px;
+    padding-left: 15px;
+    background-color: #C6A973;
+
+}
+h1{
+    color:white;
+    background-color: #003D6D;
+    border-radius: 10px;
+    padding:3px;
+    
+}
+.buttom8{
+    background-color: #C6A973;
+    border-radius: 5px;
+    color: black;
+
+}
+.btns{
+    background: transparent;
+    box-shadow: none;
+}
+div.pr{
+    box-shadow: none;
+    padding-left: 150px;
+    background: transparent;
+}
+div.as{
+    box-shadow: none;
+    padding-left: 150px;
+    background: transparent;
+}

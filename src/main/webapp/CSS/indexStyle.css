@@ -3,6 +3,13 @@
     padding: 0px;
 }
 
+body{
+    background:linear-gradient(to bottom, #222222, #46C286);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
 #header {
     margin: auto;
     font-family: Roboto;
