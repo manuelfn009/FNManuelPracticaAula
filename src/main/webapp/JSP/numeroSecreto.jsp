@@ -65,7 +65,7 @@
                         respuestas.add(numero + ": " + respuesta + acierto);
                     }
 
-                    respuestas.add(numero + ": " + respuesta);
+                    respuestas.add(numero + ": " + respuesta + ": " + cont);
 
                     session.setAttribute("respuestas", respuestas);
                 }
