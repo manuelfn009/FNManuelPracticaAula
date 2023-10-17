@@ -49,7 +49,6 @@ de vida a 0 age
             %>
 
             <p>Visitas: <%= visitas%></p>
-
             <p>Caducidad: <%= tiempoVida%></p>
             <p>Nombre cookie: <%= nombre%></p>
             <p>Segura: <%= segura%></p>
