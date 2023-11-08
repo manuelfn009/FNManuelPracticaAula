@@ -1,0 +1,54 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 8 nov. 2023, 16:46:27
+    Author     : manue
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    place-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background:  linear-gradient(#ec073c, #cc99ff);
+}
+
+div{
+    font-size: 30px;
+    margin-top: 5%;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    height: 200px;
+    width: 700px;
+}
+
+.boton{
+    background: linear-gradient(to left, #cc99ff, #ec073c);
+    padding:10px;
+    width: 150px;
+    border:none;
+    border-radius: 30px;
+    color:white;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+.boton:hover{
+    background: linear-gradient(to right, #cc99ff, #ec073c);
+    cursor: pointer;
+    border: 1px solid black;
+}
